@@ -33,7 +33,7 @@ class AsyncFeatureTable(ABC):
 
 
 class PricingFeature(AsyncFeatureTable):
-    table_name = "stg_dev_zepz.features.knuts_pricing"
+    table_name = "stg_dev_zepz.features.andreas_pricing"
     description = "Pricing Features"
     timestamp_key = "ts"
     non_ts_primary_keys = [
