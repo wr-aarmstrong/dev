@@ -3,7 +3,6 @@ import sys
 from databricks.feature_engineering import FeatureEngineeringClient
 from features import AsyncFeatureTable, PricingFeature
 
-SPARK_SESSION_APP_NAME = "async_features"
 
 
 def update_offline_table_schema_and_possibly_backfill(feature_object: AsyncFeatureTable,

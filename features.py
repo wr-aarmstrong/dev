@@ -7,6 +7,8 @@ from pyspark.sql import functions as F
 from pyspark.sql import Window
 
 
+SPARK_SESSION_APP_NAME = "async_features"
+
 class CalculationInterval(Enum):
     # Use cron presets
     HOURLY = "@hourly"
